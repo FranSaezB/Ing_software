@@ -15,6 +15,8 @@ namespace SoftwareAvanzada.Controllers
 
         public ActionResult Registro()
         {
+  
+            
             return View();
         }
 
