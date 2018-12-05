@@ -8,6 +8,8 @@ namespace SoftwareAvanzada.Controllers
 {
     public class HomeController : Controller
     {
+        public object ViewBag { get; private set; }
+
         public ActionResult Index()
         {
             return View();
@@ -19,7 +21,6 @@ namespace SoftwareAvanzada.Controllers
             
             return View();
         }
-
         public ActionResult RegistroTurista()
         {
             return View();
@@ -27,7 +28,6 @@ namespace SoftwareAvanzada.Controllers
 
         public ActionResult Login()
         {
-            ViewBag.Message = "Your contact page.";
 
             return View();
         }
